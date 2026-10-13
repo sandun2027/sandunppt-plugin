@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppagent-ppt-plugin"
+version = "2.0.2"
+description = "Standalone open source AI tools for PowerPoint and WPS"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi==0.115.12",
+  "httpx>=0.27,<1",
+  "uvicorn[standard]==0.34.0",
+  "Pillow==11.1.0",
+  "cryptography>=44,<46",
+  "defusedxml>=0.7,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "skia-python==138.0",
+  "pytest>=8.3,<9",
+  "pytest-cov>=6,<7",
+  "ruff>=0.11,<1",
+  "pyinstaller>=6.12,<7",
+]
+
+[project.scripts]
+sandun-open-local = "ppagent_local.main:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ppagent_local = ["static/**/*", "prompts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+
+

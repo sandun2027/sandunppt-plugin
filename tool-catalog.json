@@ -1,0 +1,261 @@
+[
+  {
+    "id": "page-height",
+    "label": "页面撑高",
+    "category": "view",
+    "icon": "Scan",
+    "panel": false
+  },
+  {
+    "id": "guides",
+    "label": "参考线",
+    "category": "view",
+    "icon": "Ruler",
+    "panel": false
+  },
+  {
+    "id": "master",
+    "label": "母版设置",
+    "category": "view",
+    "icon": "PanelsTopLeft",
+    "panel": false
+  },
+  {
+    "id": "zoom",
+    "label": "整体缩放",
+    "category": "view",
+    "icon": "Scaling",
+    "panel": true
+  },
+  {
+    "id": "layers",
+    "label": "图层管理",
+    "category": "object",
+    "icon": "Layers",
+    "panel": false
+  },
+  {
+    "id": "select-between",
+    "label": "连选",
+    "category": "object",
+    "icon": "ListFilter",
+    "panel": false
+  },
+  {
+    "id": "select-inverse",
+    "label": "反选",
+    "category": "object",
+    "icon": "SquareDashedMousePointer",
+    "panel": false
+  },
+  {
+    "id": "select-type",
+    "label": "相同类型",
+    "category": "object",
+    "icon": "Shapes",
+    "panel": false
+  },
+  {
+    "id": "select-font",
+    "label": "相同字体/字号",
+    "category": "object",
+    "icon": "Type",
+    "panel": false
+  },
+  {
+    "id": "select-width",
+    "label": "相同宽度",
+    "category": "object",
+    "icon": "MoveHorizontal",
+    "panel": false
+  },
+  {
+    "id": "select-height",
+    "label": "相同高度",
+    "category": "object",
+    "icon": "MoveVertical",
+    "panel": false
+  },
+  {
+    "id": "select-color",
+    "label": "相同颜色",
+    "category": "object",
+    "icon": "Pipette",
+    "panel": false
+  },
+  {
+    "id": "select-lines",
+    "label": "所有线条",
+    "category": "object",
+    "icon": "Slash",
+    "panel": false
+  },
+  {
+    "id": "select-text",
+    "label": "所有文字",
+    "category": "object",
+    "icon": "TextSelect",
+    "panel": false
+  },
+  {
+    "id": "select-groups",
+    "label": "所有组合",
+    "category": "object",
+    "icon": "Group",
+    "panel": false
+  },
+  {
+    "id": "group-near",
+    "label": "亲密性组合",
+    "category": "object",
+    "icon": "ScanLine",
+    "panel": false
+  },
+  {
+    "id": "group",
+    "label": "组合保留样式",
+    "category": "object",
+    "icon": "Group",
+    "panel": false
+  },
+  {
+    "id": "ungroup-style",
+    "label": "取消组合保留样式",
+    "category": "object",
+    "icon": "Ungroup",
+    "panel": false
+  },
+  {
+    "id": "ungroup-slide",
+    "label": "解散页面组合",
+    "category": "object",
+    "icon": "PanelsTopLeft",
+    "panel": false
+  },
+  {
+    "id": "ungroup-selection",
+    "label": "解散选定组合",
+    "category": "object",
+    "icon": "Ungroup",
+    "panel": false
+  },
+  {
+    "id": "layer-up",
+    "label": "上层",
+    "category": "object",
+    "icon": "BringToFront",
+    "panel": false
+  },
+  {
+    "id": "layer-down",
+    "label": "下层",
+    "category": "object",
+    "icon": "SendToBack",
+    "panel": false
+  },
+  {
+    "id": "duplicate",
+    "label": "原位复制",
+    "category": "object",
+    "icon": "Copy",
+    "panel": false
+  },
+  {
+    "id": "fill-slide",
+    "label": "填充画面",
+    "category": "object",
+    "icon": "Maximize",
+    "panel": false
+  },
+  {
+    "id": "crop-slide",
+    "label": "全屏裁剪",
+    "category": "object",
+    "icon": "Crop",
+    "panel": false
+  },
+  {
+    "id": "trim",
+    "label": "修边",
+    "category": "object",
+    "icon": "Scissors",
+    "panel": false
+  },
+  {
+    "id": "mask",
+    "label": "遮罩",
+    "category": "object",
+    "icon": "Blend",
+    "panel": true
+  },
+  {
+    "id": "merge",
+    "label": "布尔运算",
+    "category": "object",
+    "icon": "Combine",
+    "panel": true
+  },
+  {
+    "id": "round-corners",
+    "label": "圆角",
+    "category": "object",
+    "icon": "Radius",
+    "panel": true
+  },
+  {
+    "id": "export-images",
+    "label": "导出图片",
+    "category": "export",
+    "icon": "Images",
+    "panel": true
+  },
+  {
+    "id": "export-fonts",
+    "label": "导出字体",
+    "category": "export",
+    "icon": "FileType2",
+    "panel": false
+  },
+  {
+    "id": "outline",
+    "label": "字体转曲",
+    "category": "export",
+    "icon": "Spline",
+    "panel": false
+  },
+  {
+    "id": "export-video",
+    "label": "导出选定页视频",
+    "category": "export",
+    "icon": "Video",
+    "panel": true
+  },
+  {
+    "category": "object",
+    "label": "统一字体",
+    "id": "unify-fonts",
+    "panel": true,
+    "icon": "Languages"
+  },
+  {
+    "category": "object",
+    "label": "超级刷",
+    "id": "super-brush",
+    "panel": true,
+    "icon": "Paintbrush"
+  },
+  {
+    "category": "export",
+    "label": "PPT 拼图",
+    "id": "collage",
+    "panel": true,
+    "icon": "LayoutGrid"
+  },
+  {
+    "category": "about",
+    "label": "插件版本",
+    "id": "version",
+    "panel": true,
+    "icon": "BadgeInfo"
+  }
+]

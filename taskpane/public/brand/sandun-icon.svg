@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="-5 -5 548 548" role="img" aria-labelledby="title desc">
+  <title id="title">SANDUN icon</title>
+  <desc id="desc">A friendly black organic-shaped character with a light face.</desc>
+  <defs>
+    <linearGradient id="body" x1="0.13" y1="0.04" x2="0.82" y2="0.91">
+      <stop offset="0" stop-color="#202020"/>
+      <stop offset="0.52" stop-color="#1d1d1d"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0.18" y1="0" x2="0.83" y2="1">
+      <stop offset="0" stop-color="#242424"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+  </defs>
+  <path d="M187 0C144-1 106 15 82 44C58 73 50 103 54 137C59 176 39 205 21 237C-1 275-5 318 8 357C27 412 68 445 126 457C165 465 188 490 230 510C280 533 327 542 377 529C442 512 490 479 519 427C541 389 547 345 532 301C520 270 518 245 526 204C537 149 512 107 469 84C425 64 400 63 370 64C328 64 301 48 272 21C247-2 220-5 187 0Z" fill="url(#body)" stroke="#090909" stroke-width="1" stroke-linejoin="round"/>
+  <ellipse cx="316" cy="354" rx="146" ry="139" fill="#f8f5f5"/>
+  <ellipse cx="275" cy="375" rx="14" ry="23" fill="url(#eye)" stroke="#0d0d0d" stroke-width="1.1"/>
+  <ellipse cx="372" cy="375" rx="14" ry="23" fill="url(#eye)" stroke="#0d0d0d" stroke-width="1.1"/>
+  <ellipse cx="279" cy="365" rx="5.6" ry="7.5" fill="#fff"/>
+  <ellipse cx="376" cy="365" rx="5.6" ry="7.5" fill="#fff"/>
+  <path d="M309 403C318 415 331 415 341 403" fill="none" stroke="#171717" stroke-width="5.5" stroke-linecap="round"/>
+</svg>

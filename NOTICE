@@ -1,0 +1,11 @@
+SANDUN PPT Open Source
+Copyright 2026 SANDUN and contributors.
+
+This edition includes standalone AI prompts and SVG diagram references adapted from SANDUN.
+Project code is distributed under Apache License 2.0.
+Third-party dependencies remain under their respective licenses; see licenses/.
+Microsoft Office, WPS and WebView2 are separate products and are not relicensed by this project.
+
+Acknowledgements:
+- 小顽简报 (wonvy) — https://www.yuque.com/wonvy/pptools/veu9yq
+- fireworks-tech-graph (MIT) — https://github.com/yizhiyanhua-ai/fireworks-tech-graph

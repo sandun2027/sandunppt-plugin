@@ -1,0 +1,193 @@
+[
+  {
+    "name": "fastapi",
+    "version": "0.115.12",
+    "licenses": [
+      "fastapi-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "starlette",
+    "version": "0.46.2",
+    "licenses": [
+      "starlette-LICENSE.md.txt"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "licenses": [
+      "httpx-LICENSE.md.txt"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "licenses": [
+      "httpcore-LICENSE.md.txt"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "licenses": [
+      "h11-LICENSE.txt.txt"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.14.2",
+    "licenses": [
+      "anyio-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.19",
+    "licenses": [
+      "idna-LICENSE.md.txt"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "licenses": [
+      "certifi-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.34.0",
+    "licenses": [
+      "uvicorn-LICENSE.md.txt"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "licenses": [
+      "click-LICENSE.txt.txt"
+    ]
+  },
+  {
+    "name": "websockets",
+    "version": "17.1",
+    "licenses": [
+      "websockets-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "watchfiles",
+    "version": "1.2.0",
+    "licenses": [
+      "watchfiles-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "httptools",
+    "version": "0.8.0",
+    "licenses": [
+      "httptools-LICENSE.txt",
+      "httptools-LICENSE-MIT.txt",
+      "httptools-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "licenses": [
+      "PyYAML-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.3",
+    "licenses": [
+      "python-dotenv-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.13.5",
+    "licenses": [
+      "pydantic-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.46.5",
+    "licenses": [
+      "pydantic_core-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "licenses": [
+      "annotated-types-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "licenses": [
+      "typing_extensions-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "licenses": [
+      "typing-inspection-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "version": "45.0.7",
+    "licenses": [
+      "cryptography-LICENSE.txt",
+      "cryptography-LICENSE.APACHE.txt",
+      "cryptography-LICENSE.BSD.txt"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "licenses": [
+      "cffi-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "licenses": [
+      "pycparser-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "Pillow",
+    "version": "11.1.0",
+    "licenses": [
+      "Pillow-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "defusedxml",
+    "version": "0.7.1",
+    "licenses": [
+      "defusedxml-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.2.8"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.2.8"
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.468.0"
+  }
+]

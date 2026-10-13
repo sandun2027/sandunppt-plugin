@@ -1,0 +1,9 @@
+{
+  "name": "SANDUNPPTOpenSource",
+  "displayName": "SANDUN",
+  "type": "wpp",
+  "version": "2.0.2",
+  "ribbon": "ribbon.xml",
+  "entry": "ribbon.js"
+}
+

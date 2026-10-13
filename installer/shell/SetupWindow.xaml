@@ -1,0 +1,49 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="SANDUN 安装" Width="752" Height="624" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent" FontFamily="Microsoft YaHei UI, Segoe UI" TextOptions.TextFormattingMode="Display">
+  <Window.Resources>
+    <Style TargetType="Button">
+      <Setter Property="Cursor" Value="Hand"/><Setter Property="FontSize" Value="13"/><Setter Property="Foreground" Value="#69717D"/><Setter Property="Background" Value="Transparent"/><Setter Property="Padding" Value="16,10"/><Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button"><Border x:Name="Surface" CornerRadius="12" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}"><ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/></Border><ControlTemplate.Triggers><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Surface" Property="Opacity" Value="0.75"/></Trigger><Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="Surface" Property="BorderBrush" Value="#8CABC8"/><Setter TargetName="Surface" Property="BorderThickness" Value="2"/></Trigger><Trigger Property="IsEnabled" Value="False"><Setter Property="Opacity" Value="0.45"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter>
+    </Style>
+  </Window.Resources>
+  <Border Margin="16" CornerRadius="24" Background="White" BorderBrush="#E9EDF2" BorderThickness="1">
+    <Border.Effect><DropShadowEffect BlurRadius="25" ShadowDepth="5" Opacity="0.14" Color="#273449"/></Border.Effect>
+    <Viewbox Stretch="Uniform">
+      <Grid Width="720" Height="592" Background="Transparent">
+        <Grid.RowDefinitions><RowDefinition Height="64"/><RowDefinition Height="*"/><RowDefinition Height="88"/></Grid.RowDefinitions>
+        <Grid x:Name="TitleBar" Margin="30,0,20,0">
+          <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><TextBlock Text="SANDUN" FontFamily="Segoe UI" FontWeight="Bold" FontSize="19" Foreground="#25282D"/><TextBlock Text="  PPT 插件" FontSize="11" Foreground="#9CA5B2" VerticalAlignment="Center" Margin="6,2,0,0"/></StackPanel>
+          <Button x:Name="CloseButton" HorizontalAlignment="Right" Width="34" Height="34" Padding="0" AutomationProperties.Name="关闭安装窗口"><Path Data="M 0,0 L 10,10 M 10,0 L 0,10" Stroke="#9099A7" StrokeThickness="1.3" Width="10" Height="10"/></Button>
+        </Grid>
+        <Grid Grid.Row="1" Margin="44,0">
+          <Grid.RowDefinitions><RowDefinition Height="164"/><RowDefinition Height="93"/><RowDefinition Height="*"/></Grid.RowDefinitions>
+          <Grid x:Name="Artwork" Width="260" Height="155" HorizontalAlignment="Center">
+            <Ellipse Width="256" Height="140" VerticalAlignment="Bottom"><Ellipse.Fill><RadialGradientBrush><GradientStop Color="#F1F5F9" Offset="0"/><GradientStop Color="#00FFFFFF" Offset="1"/></RadialGradientBrush></Ellipse.Fill></Ellipse>
+            <Border Width="158" Height="102" CornerRadius="14" Background="#F5F7FA" BorderBrush="#E4EAF0" BorderThickness="1" Margin="45,1,0,0" RenderTransformOrigin="0.5,0.5"><Border.RenderTransform><RotateTransform Angle="12"/></Border.RenderTransform></Border>
+            <Border Width="176" Height="111" CornerRadius="15" Background="White" BorderBrush="#E0E7EF" BorderThickness="1" Margin="0,12,26,0" RenderTransformOrigin="0.5,0.5">
+              <Border.RenderTransform><RotateTransform Angle="-6"/></Border.RenderTransform><Border.Effect><DropShadowEffect BlurRadius="18" ShadowDepth="8" Opacity="0.09" Color="#6D7C91"/></Border.Effect>
+              <Grid Margin="22"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="58"/></Grid.ColumnDefinitions><StackPanel VerticalAlignment="Center"><Border Height="7" Width="61" Background="#8498AF" CornerRadius="3" HorizontalAlignment="Left"/><Border Height="4" Width="47" Background="#D7DFE9" CornerRadius="2" HorizontalAlignment="Left" Margin="0,12,0,0"/><Border Height="4" Width="58" Background="#E6EBF1" CornerRadius="2" HorizontalAlignment="Left" Margin="0,6,0,0"/></StackPanel><Grid Grid.Column="1" VerticalAlignment="Bottom" Height="58"><Border Width="14" Height="24" VerticalAlignment="Bottom" HorizontalAlignment="Left" Background="#DAE3EC" CornerRadius="4,4,0,0"/><Border Width="14" Height="39" VerticalAlignment="Bottom" Background="#AFBFD1" CornerRadius="4,4,0,0"/><Border Width="14" Height="57" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="#7F96B1" CornerRadius="4,4,0,0"/></Grid></Grid>
+            </Border>
+            <Border HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,25,10" Width="42" Height="42" CornerRadius="14" Background="#25282D"><Path Data="M 12,0 L 14,9 L 23,12 L 14,15 L 12,24 L 9,15 L 0,12 L 9,9 Z" Fill="White" Width="20" Height="20" Stretch="Uniform"/></Border>
+          </Grid>
+          <StackPanel Grid.Row="1" HorizontalAlignment="Center"><TextBlock x:Name="Headline" Text="用 SANDUN，少点加班熬夜。" FontSize="28" FontWeight="DemiBold" Foreground="#25282D" HorizontalAlignment="Center"/><TextBlock x:Name="Subtitle" Text="用 SANDUN，少点加班熬夜。" FontSize="12" Foreground="#929CAB" Margin="0,14,0,0" HorizontalAlignment="Center"/></StackPanel>
+          <Grid Grid.Row="2">
+            <StackPanel x:Name="ReadyPanel">
+              <Border CornerRadius="13" Background="#F8F9FB" BorderBrush="#EBEEF3" BorderThickness="1" Padding="17,13">
+                <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="安装位置" Foreground="#929CAA" FontSize="10"/><TextBlock x:Name="DirectoryLabel" FontSize="11" Foreground="#5B6675" Margin="0,7,0,0" TextTrimming="CharacterEllipsis"/></StackPanel><Button x:Name="ChangeDirectoryButton" Grid.Column="1" Content="更改" Padding="11,7" VerticalAlignment="Center" FontSize="11"/></Grid>
+              </Border>
+              <TextBox x:Name="DirectoryEdit" Visibility="Collapsed" FontSize="12" Foreground="#445266" Padding="10,8" BorderBrush="#DCE4EF" BorderThickness="1" Margin="0,8,0,0" AutomationProperties.Name="安装目录"/>
+              <TextBlock x:Name="ExistingLabel" Text="支持 PowerPoint 与 WPS 演示" FontSize="11" Foreground="#8D98A6" Margin="3,13,0,0"/>
+            </StackPanel>
+            <StackPanel x:Name="ProgressPanel" Visibility="Collapsed" Margin="0,4,0,0">
+              <Grid><TextBlock x:Name="ProgressLabel" Text="正在准备安装文件" FontSize="12" Foreground="#647184"/><TextBlock x:Name="PercentLabel" Text="0%" FontSize="11" Foreground="#8A98AA" HorizontalAlignment="Right"/></Grid>
+              <Border Height="5" CornerRadius="3" Background="#ECF0F5" Margin="0,17,0,0"><Grid><Border x:Name="ProgressFill" Width="0" CornerRadius="3" HorizontalAlignment="Left" Background="#869CB7"/></Grid></Border>
+              <TextBlock Text="安装完成后，即可在演示软件中使用 SANDUN。" FontSize="11" Foreground="#A0A8B4" Margin="0,18,0,0"/>
+            </StackPanel>
+            <Border x:Name="MessagePanel" Visibility="Collapsed" CornerRadius="13" Background="#F7F9FC" BorderBrush="#E8EDF4" BorderThickness="1" Padding="18,14"><StackPanel><TextBlock x:Name="MessageTitle" FontSize="13" Foreground="#50627A"/><TextBlock x:Name="MessageDetail" FontSize="11" Foreground="#8793A4" TextWrapping="Wrap" LineHeight="20" Margin="0,9,0,0"/></StackPanel></Border>
+          </Grid>
+        </Grid>
+        <Border Grid.Row="2" BorderBrush="#EEF0F4" BorderThickness="0,1,0,0" Margin="0,7,0,0"><Grid Margin="32,0"><StackPanel VerticalAlignment="Center"><TextBlock x:Name="VersionLabel" Text="SANDUN" FontSize="11" Foreground="#8F9BA9"/><TextBlock x:Name="FooterNote" Text="用 SANDUN，少点加班熬夜。" FontSize="10" Foreground="#ADB5C0" Margin="0,5,0,0"/></StackPanel><StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center"><Button x:Name="SecondaryButton" Content="返回" Visibility="Collapsed" Margin="0,0,8,0"/><Button x:Name="PrimaryButton" Content="安装 SANDUN  →" IsDefault="True" Background="#25282D" Foreground="White" MinWidth="156" Height="43" Padding="21,10"/></StackPanel></Grid></Border>
+      </Grid>
+    </Viewbox>
+  </Border>
+</Window>
