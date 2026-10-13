@@ -31,13 +31,22 @@ AI 功能接入你自己的 OpenAI-compatible 模型，文本和图片模型分�
 
 输入主题，AI 先策划四个方案，再生成标题 SVG 和图片背景，最后分层插入幻灯片。得到的是一张**可编辑**的 16:9 封面：标题是文字，背景是图片，都能接着改。
 
+<p align="center">
+  <img src="docs/screenshots/ai-cover-plan.png" width="49%" alt="AI 封面：四个方案" />
+  <img src="docs/screenshots/ai-cover.png" width="49%" alt="AI 封面：合成预览" />
+</p>
+
 ### 🖼️ AI 生图
 
 一句话描述画面，生成后可以插入幻灯片或另存。使用 `gpt-image-2.5-sunburst` / `gpt-image-2.5-flare` 时，还可以调画面比例、清晰度、画质、格式和透明背景，并上传最多 4 张参考图，指定主体、配色或构图（[详细说明](#ai-生图图片设置与参考图)）。
 
+<p align="center"><img src="docs/screenshots/ai-image.png" width="70%" alt="AI 生图" /></p>
+
 ### 📊 AI 图表
 
 把数据直接说出来，比如“一季度 20，二季度 40，三季度 60”。AI 整理数据，插件在本机渲染成 SVG 图表插入页面，可以随意移动和缩放。
+
+![AI 图表](docs/screenshots/ai-chart.png)
 
 ### 🧭 AI 图示
 
@@ -47,6 +56,12 @@ AI 功能接入你自己的 OpenAI-compatible 模型，文本和图片模型分�
 - **复杂关系**：条件流程、架构、时序、生态、金字塔/漏斗
 
 简单图示内置 122 个母版、464 个数量版本，按真实的节点数选版式，不会硬塞。生成结果经过 SVG 安全和语法校验，出错会自动修正一次。
+
+![AI 图示](docs/screenshots/ai-diagram.png)
+
+![内置图示母版](docs/screenshots/ai-diagram-gallery.png)
+
+> 以上截图来自插件真实界面，模型返回内容为模拟数据。
 
 ## 🧰 效率工具
 
@@ -66,6 +81,16 @@ AI 功能接入你自己的 OpenAI-compatible 模型，文本和图片模型分�
 **超级刷**：读取一次样式，按属性刷给多个对象。
 
 **PPT 拼图**：多页拼成一张长图，可以加背景和水印。
+
+<p align="center">
+  <img src="docs/screenshots/tool-zoom.png" width="32%" alt="整体缩放" />
+  <img src="docs/screenshots/tool-round-corners.png" width="32%" alt="圆角" />
+  <img src="docs/screenshots/tool-merge.png" width="32%" alt="布尔运算" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/tool-unify-fonts.png" width="32%" alt="统一字体" />
+  <img src="docs/screenshots/tool-collage.png" width="65%" alt="PPT 拼图" />
+</p>
 
 <details>
 <summary><b>全部工具清单</b></summary>
